@@ -2,7 +2,7 @@
 
 Ansible language server plugin for Claude Code, providing code intelligence features like diagnostics, auto-completion, hover documentation, and go-to-definition for Ansible playbooks and roles.
 
-Powered by [@ansible/ansible-language-server](https://www.npmjs.com/package/@ansible/ansible-language-server) (>= 26.4.3).
+Powered by [@ansible/ansible-language-server](https://www.npmjs.com/package/@ansible/ansible-language-server) (>= 26.4.4).
 
 ## Features
 
@@ -18,6 +18,7 @@ Powered by [@ansible/ansible-language-server](https://www.npmjs.com/package/@ans
 ## Installation
 
 ```bash
+npm install -g @ansible/ansible-language-server
 claude plugin install ansible-lsp
 ```
 
@@ -26,6 +27,7 @@ claude plugin install ansible-lsp
 - Node.js >= 18
 - Ansible 2.9+
 - ansible-lint (recommended, for full validation support)
+- @ansible/ansible-language-server >= 26.4.4 (`npm install -g @ansible/ansible-language-server`)
 
 ## Known Limitations
 
