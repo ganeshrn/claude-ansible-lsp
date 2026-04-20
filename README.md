@@ -20,12 +20,20 @@ Powered by [@ansible/ansible-language-server](https://www.npmjs.com/package/@ans
 ```bash
 # Install the Ansible language server
 npm install -g @ansible/ansible-language-server
+```
 
-# Add the plugin marketplace to Claude Code
-claude plugin add https://github.com/tappnel/claude-ansible-lsp
+### From the official marketplace (once published)
 
-# Install the plugin
-claude plugin install ansible-lsp@claude-ansible-lsp
+Search for "ansible-lsp" in the `/plugin` Discover tab, or:
+
+```bash
+claude plugin install ansible-lsp
+```
+
+### Local development / testing
+
+```bash
+claude --plugin-dir /path/to/claude-ansible-lsp
 ```
 
 ### Requirements

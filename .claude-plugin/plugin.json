@@ -1,0 +1,11 @@
+{
+  "name": "ansible-lsp",
+  "version": "1.0.0",
+  "description": "Ansible language server for enhanced playbook and role intelligence",
+  "author": {
+    "name": "Tim Appnel"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/tappnel/claude-ansible-lsp",
+  "keywords": ["ansible", "lsp", "language-server", "yaml", "automation"]
+}
